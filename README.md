@@ -32,7 +32,8 @@ Search and replace these line below
 | `515` | this is port, you may want to replace the port depend on your printer |
 
 
-If you want to make printer as default printer, delete :: before RUNDLL32 PRINTUI.DLL,PrintUIEntry /y /n `%varName%`
+If you want to make printer as default printer, delete :
+`::` before RUNDLL32 PRINTUI.DLL,PrintUIEntry /y /n `%varName%`
 
 
 ### For .sh bash script :
