@@ -42,9 +42,9 @@ If you want to make printer as default printer, delete
 | :----: | --- |
 | `IP1 , IP2, IP3` | Replace with printer IP Addresss |
 | `Printer_Name1, Printer_Name2, Printer_Name3` | Replace with Printer Hostname |
-| `Driver_Path` | Replace with the path of printer installed, the path may in /Library/Printers/PPDs/Contents/Resources |
+| `Driver_Path` | Replace with the path of printer installed, the path may in "/Library/Printers/PPDs/Contents/Resources" |
 | `Driver_Installer` | Replace the path to your printer driver pkg file |
-| `lpd://$IP/ or ipp://$IP/` | depend on your printer |
+| `lpd://$IP/ or ipp://$IP/` | Replace lpd or ipp port, depend on your printer |
 
 
 
