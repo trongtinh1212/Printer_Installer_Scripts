@@ -28,7 +28,7 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 # Driver installer path
-Driver_Installer="./FUJIFILM_Print_Driver_MacOSX_Installer.pkg"
+Driver_Installer="printer driver installer"
 installer -pkg $Driver_Installer -target /
 sleep 5
 
@@ -81,7 +81,7 @@ do
 	        rm ./$Driver_Installer
         
             # Reference link : https://github.com/apple/cups
-            
+
 	        lpadmin -p $Printer_Name3 -D "$Printer_Name3" -v lpd://$IP3/ -P "${Driver_Path}" -o printer-is-shared=false -E
             fi
             ;;
